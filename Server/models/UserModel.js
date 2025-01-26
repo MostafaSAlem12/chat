@@ -39,5 +39,6 @@ userSchema.pre("save", async function(next){
     next();
 })
 
+//user model for chat
 const User = mongoose.model("Users",userSchema);
 export default User;
