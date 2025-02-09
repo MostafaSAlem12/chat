@@ -22,7 +22,6 @@ app.use(cookieParser());
 app.use(express.json())
 const server = app.listen(port ,()=>{
     console.log(`server is running on port ${port}`)
-    console.log(`server is running on port ${port}`)
 })
 
 
